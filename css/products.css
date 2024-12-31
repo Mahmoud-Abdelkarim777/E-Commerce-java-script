@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#a{
+    color: white;
+    text-decoration: none;
+}
+/* .navbar-toggler-icon,
+.navbar-toggler {
+    display: none;
+} */
+#shoppingCartIcon i{
+    color: white;
+}
+
+#no_products{
+    /* background-color: red; */
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 100px);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.back a{
+    background-color: #0d6efd;
+    border-radius: 10px;
+    color: white;
+}
