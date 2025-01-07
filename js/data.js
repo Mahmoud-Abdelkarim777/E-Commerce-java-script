@@ -6,7 +6,8 @@ products_1 =[
     title: "Fogg Royal Perfume Spray for Men - 120 ml, Mixed",
     price: "840,00 EGP",
     discount: "Sale price 1770,00 EGP",
-    imageURL: "images/foog1.jpg"
+    imageURL: "images/foog1.jpg",
+    qty: 1,
     },
     {
     id: 2,
@@ -14,7 +15,8 @@ products_1 =[
     title: "Fogg Royal Perfume Spray for Men - 120 ml, Mixed",
     price: "950,00 EGP",
     discount: "Sale price 1270,00 EGP",
-    imageURL: "images/foog3.jpg"
+    imageURL: "images/foog3.jpg",
+    qty: 1,
     },
     {
     id: 3,
@@ -22,13 +24,14 @@ products_1 =[
     title: "Fogg Royal Perfume Spray for Men - 120 ml, Mixed",
     price: "360,00 EGP",
     discount: "Sale price 1150,00 EGP",
-    imageURL: "images/foog2.jpg"
+    imageURL: "images/foog2.jpg",
+    qty: 1,
     }
 ];
 // Define data
 let products_2 = [
     {
-        id: 1,
+        id: 4,
         name:"Man look",
         discount: "20% discount",
         offer: "Limited time offer",
@@ -36,9 +39,10 @@ let products_2 = [
         price: "800,00 EGP",
         Sale: "Sale price 1110,00 EGP",
         imageURL: "images/1.jpg",
+        qty: 1,
     },
     {
-        id: 2,
+        id: 5,
         name:"lona",
         discount: "30% discount",
         offer: "Limited time offer",
@@ -46,9 +50,10 @@ let products_2 = [
         price: "900,00 EGP",
         Sale: "Sale price 2270,00 EGP",
         imageURL: "images/2.jpg",
+        qty: 1,
     },
     {
-        id: 3,
+        id: 6,
         name:"ck",
         discount: "25% discount",
         offer: "Limited time offer",
@@ -56,9 +61,10 @@ let products_2 = [
         price: "840,00 EGP",
         Sale: "Sale price 1170,00 EGP",
         imageURL: "images/3.jpg",
+        qty: 1,
     },
     {
-        id: 4,
+        id: 7,
         name:"Man look",
         discount: "15% discount",
         offer: "Limited time offer",
@@ -66,9 +72,10 @@ let products_2 = [
         price: "840,00 EGP",
         Sale: "Sale price 8570,00 EGP",
         imageURL: "images/4.jpg",
+        qty: 1,
     },
     {
-        id: 5,
+        id: 8,
         name:"sauvage",
         discount: "10% discount",
         offer: "Limited time offer",
@@ -76,9 +83,10 @@ let products_2 = [
         price: "1000,00 EGP",
         Sale: "Sale price 1980,00 EGP",
         imageURL: "images/5.jpg",
+        qty: 1,
     },
     {
-        id: 6,
+        id: 9,
         name:"lion look",
         discount: "45% discount",
         offer: "Limited time offer",
@@ -86,9 +94,10 @@ let products_2 = [
         price: "740,00 EGP",
         Sale: "Sale price 2000,00 EGP",
         imageURL: "images/6.jpg",
+        qty: 1,
     },
     {
-        id: 7,
+        id: 10,
         name:"Grit",
         discount: "55% discount",
         offer: "Limited time offer",
@@ -96,9 +105,10 @@ let products_2 = [
         price: "140,00 EGP",
         Sale: "Sale price 1170,00 EGP",
         imageURL: "images/7.jpg",
+        qty: 1,
     },
     {
-        id: 8,
+        id: 11,
         name:"Royal",
         discount: "70% discount",
         offer: "Limited time offer",
@@ -106,46 +116,55 @@ let products_2 = [
         price: "100,00 EGP",
         Sale: "Sale price 1140,00 EGP",
         imageURL: "images/8.jpg",
+        qty: 1,
     },
     {
-        id: 9,
-        name:"shroty",
+        id: 12,
+        name:"shrot",
         discount: "90% discount",
         offer: "Limited time offer",
         title: "shroty Royal Perfume Spray for Men - 120 ml, Mixed",
         price: "50,00 EGP",
         Sale: "Sale price 1170,00 EGP",
         imageURL: "images/9.jpg",
+        qty: 1,
     },
 ];
 // store data in js file 
 products_3 =[
     {
-        id: 1,
+        id: 13,
         name:"shroty",
         imageURL: "images/c1.jpg",
         price: "800,00 EGP",
-        Sale: "1250,00 EGP"
+        Sale: "1250,00 EGP",
+        qty: 1,
     },
     {
-        id: 2,
+        id: 14,
         name:"Rex",
         imageURL: "images/c2.jpg",
         price: "780,00 EGP",
-        Sale: "1630,00 EGP"
+        Sale: "1630,00 EGP",
+        qty: 1,
     },
     {
-        id: 3,
+        id: 15,
         name:"yellow",
         imageURL: "images/c3.jpg",
         price: "880,00 EGP",
-        Sale: "1860,00 EGP"
+        Sale: "1860,00 EGP",
+        qty: 1,
     },
     {
-        id: 4,
+        id: 16,
         name:"black",
         imageURL: "images/c4.jpg",
         price: "900,00 EGP",
-        Sale: "2900,00 EGP"
+        Sale: "2900,00 EGP",
+        qty: 1,
     }
 ]
+localStorage.setItem("products_1", JSON.stringify(products_1 ));
+localStorage.setItem("products_2", JSON.stringify(products_2 ));
+localStorage.setItem("products_3", JSON.stringify(products_3 ));
