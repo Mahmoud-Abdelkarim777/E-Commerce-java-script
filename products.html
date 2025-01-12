@@ -12,39 +12,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-        <div class="container-fluid">
-            <!-- Logo or Brand Name -->
-            <div class="logo">
-                <a href="index.html" id="a"><h1 class="">Shopping</h1></a>
-                <p class="navbar-brand  m-0" id="wellcome"></p>
+    <header class=" bg-success">
+        <nav class="container navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <!-- Logo or Brand Name -->
+                <div class="logo">
+                    <a href="index.html" id="a"><h1 class="">Shopping</h1></a>
+                    <p class="navbar-brand  m-0" id="wellcome"></p>
+                    
+                </div>
+                <!-- Icon for Mobile -->
+                <div id="toggler">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse links" id="navbarNav">
+                    <ul class="navbar-nav flex-row ms-auto gap-2 py-2">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary text-white" href="login.html" id="signin">Sign In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary text-white" href="register.html" id="signup">Sign Up</a>
+                        </li>
+                        <li class="nav-item position-relative" id="shoppingCartIcon">
+                            <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
+                            <span class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle" id="badge">0</span>
+                        </li>
+                        <li class="back"><a href="./index.html" class="text-decoration-none px-4 py-2 ms-4">Back</a></li>
+                    </ul>
+                </div>
             </div>
-            <!-- Icon for Mobile -->
-            <div id="toggler">
-                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            
-            <!-- Navbar Links -->
-            <div class="collapse navbar-collapse links" id="navbarNav">
-                <ul class="navbar-nav flex-row ms-auto gap-2 py-2">
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-primary text-white" href="login.html" id="signin">Sign In</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-primary text-white" href="register.html" id="signup">Sign Up</a>
-                    </li>
-                    <li class="nav-item position-relative" id="shoppingCartIcon">
-                        <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
-                        <span class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle" id="badge">0</span>
-                    </li>
-                    <li class="back"><a href="./index.html" class="text-decoration-none px-4 py-2 ms-4">Back</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <div class="container">
         <div class="position-relative">
             <div id="products"></div>

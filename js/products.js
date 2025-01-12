@@ -15,7 +15,7 @@ if (username) {
 function showname() {
     if (username) {
         wellcome.innerHTML= `
-        <p class=" m-0 mb-3" id="wellcome">Hi ! ${username}</p>
+        <p class=" m-0 mb-3" id="wellcome">Hi  ${username} 👋 !</p>
         `
     }
 }

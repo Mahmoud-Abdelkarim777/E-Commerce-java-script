@@ -26,12 +26,39 @@ products_1 =[
     discount: "Sale price 1150,00 EGP",
     imageURL: "images/foog2.jpg",
     qty: 1,
+    },
+    {
+    id: 4,
+    name:"Sauvage Dior",
+    title: "Fogg Royal Perfume Spray for Men - 120 ml, Mixed",
+    price: "360,00 EGP",
+    discount: "Sale price 1150,00 EGP",
+    imageURL: "images/foog3.jpg",
+    qty: 1,
+    },
+    {
+    id: 5,
+    name:"Sauvage Dior",
+    title: "Fogg Royal Perfume Spray for Men - 120 ml, Mixed",
+    price: "360,00 EGP",
+    discount: "Sale price 1150,00 EGP",
+    imageURL: "images/foog2.jpg",
+    qty: 1,
+    },
+    {
+    id: 6,
+    name:"Sauvage Dior",
+    title: "Fogg Royal Perfume Spray for Men - 120 ml, Mixed",
+    price: "360,00 EGP",
+    discount: "Sale price 1150,00 EGP",
+    imageURL: "images/foog1.jpg",
+    qty: 1,
     }
 ];
 // Define data
 let products_2 = [
     {
-        id: 4,
+        id: 7,
         name:"Man look",
         discount: "20% discount",
         offer: "Limited time offer",
@@ -42,7 +69,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 5,
+        id: 8,
         name:"lona",
         discount: "30% discount",
         offer: "Limited time offer",
@@ -53,7 +80,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 6,
+        id: 9,
         name:"ck",
         discount: "25% discount",
         offer: "Limited time offer",
@@ -64,7 +91,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 7,
+        id: 10,
         name:"Man look",
         discount: "15% discount",
         offer: "Limited time offer",
@@ -75,7 +102,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 8,
+        id: 11,
         name:"sauvage",
         discount: "10% discount",
         offer: "Limited time offer",
@@ -86,7 +113,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 9,
+        id: 12,
         name:"lion look",
         discount: "45% discount",
         offer: "Limited time offer",
@@ -97,7 +124,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 10,
+        id: 13,
         name:"Grit",
         discount: "55% discount",
         offer: "Limited time offer",
@@ -108,7 +135,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 11,
+        id: 14,
         name:"Royal",
         discount: "70% discount",
         offer: "Limited time offer",
@@ -119,7 +146,7 @@ let products_2 = [
         qty: 1,
     },
     {
-        id: 12,
+        id: 15,
         name:"shrot",
         discount: "90% discount",
         offer: "Limited time offer",
@@ -133,15 +160,15 @@ let products_2 = [
 // store data in js file 
 products_3 =[
     {
-        id: 13,
+        id: 16,
         name:"shroty",
-        imageURL: "images/c1.jpg",
+        imageURL: "images/foog2.jpg",
         price: "800,00 EGP",
         Sale: "1250,00 EGP",
         qty: 1,
     },
     {
-        id: 14,
+        id: 17,
         name:"Rex",
         imageURL: "images/c2.jpg",
         price: "780,00 EGP",
@@ -149,7 +176,7 @@ products_3 =[
         qty: 1,
     },
     {
-        id: 15,
+        id: 18,
         name:"yellow",
         imageURL: "images/c3.jpg",
         price: "880,00 EGP",
@@ -157,9 +184,17 @@ products_3 =[
         qty: 1,
     },
     {
-        id: 16,
+        id: 19,
         name:"black",
         imageURL: "images/c4.jpg",
+        price: "900,00 EGP",
+        Sale: "2900,00 EGP",
+        qty: 1,
+    },
+    {
+        id: 20,
+        name:"black",
+        imageURL: "images/foog1.jpg",
         price: "900,00 EGP",
         Sale: "2900,00 EGP",
         qty: 1,

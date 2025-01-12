@@ -88,7 +88,7 @@ function show_2(products_2) {
                             ${item.title} <br>
                             ${item.price} <br>
                             <del>${item.Sale}</del> <br>
-                            <i class="fa-regular fa-heart" style="color: ${item.liked == true ? "red" : ""}; cursor: pointer;" onclick="addToFavorite(${item.id})"></i>
+                            
                         </p>
                         <button type="button" class="btn btn-success" onclick ="addToCard_2(${item.id})" >Add to Cart</button>
                     </div>
@@ -316,30 +316,3 @@ let productsearch_1 = JSON.parse(localStorage.getItem("products_1")) || [];
 let productsearch_2 = JSON.parse(localStorage.getItem("products_2")) || [];
 let productsearch_3 = JSON.parse(localStorage.getItem("products_3")) || [];
 
-// add To favorite from products_2
-let favoraiteItems =localStorage.getItem("productsFavorite") ? 
-    JSON.parse(localStorage.getItem("productsFavorite")) :
-    [];
-// let favoraiteItems = [];
-function addToFavorite(id) {
-    console.log("Adding");
-    
-    if (localStorage.getItem("username")) {
-        let chosenItem = products_2.find((item)=> item.id === id);
-        chosenItem.liked = true;
-        favoraiteItems = [...favoraiteItems, chosenItem]
-
-        let uniqueproducts = getUniqueArr(favoraiteItems, "id");
-
-        localStorage.setItem("productsFavorite", JSON.stringify(uniqueproducts))
-        products_2.map((item)=>{
-            if (item.id === chosenItem.id) {
-                item.liked = true;
-            }
-        });
-        show_2(products_2);
-    }else{
-        alert("you must create an account.")
-        window.location = "login.html"
-    }
-}
